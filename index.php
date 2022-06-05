@@ -6,10 +6,10 @@
     <meta name="keywords" content="We live to turn great ideas, Key Features, What We Do, Our Portfolio">
     <meta name="description" content="">
     <title>Home</title>
-    <link rel="stylesheet" href="nicepage.css" media="screen">
-<link rel="stylesheet" href="Home.css" media="screen">
-    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
-    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+    <link rel="stylesheet" href="css/nicepage.css" media="screen">
+<link rel="stylesheet" href="css/Home.css" media="screen">
+    <script class="u-script" type="text/javascript" src="js/jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="js/nicepage.js" defer=""></script>
     <meta name="generator" content="Nicepage 4.12.5, nicepage.com">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i|Bai+Jamjuree:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i">
     <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bai+Jamjuree:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i">
@@ -58,8 +58,8 @@
               <div class="u-inner-container-layout u-sidenav-overflow">
                 <div class="u-menu-close"></div>
                 <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.php" style="padding: 10px 20px;">Home</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="sign-up.php" style="padding: 10px 20px;">sign up</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="sign-in.php" style="padding: 10px 20px;">sign in</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="auth/sign-up.php" style="padding: 10px 20px;">sign up</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="auth/sign-in.php" style="padding: 10px 20px;">sign in</a>
 </li></ul>
               </div>
             </div>
