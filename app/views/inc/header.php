@@ -79,9 +79,9 @@
         </div>
         <div class="u-nav-container">
           <ul class="u-nav u-spacing-2 u-unstyled u-nav-1">
-            <li class="u-nav-item"><a class="u-active-grey-5 u-button-style u-hover-grey-10 u-nav-link u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90" href="index.php" style="padding: 10px 20px;">Home</a>
+            <li class="u-nav-item"><a class="u-active-grey-5 u-button-style u-hover-grey-10 u-nav-link u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90" href="<?php echo URLROOT;?>" style="padding: 10px 20px;">Home</a>
             </li>
-            <li class="u-nav-item"><a class="u-active-grey-5 u-button-style u-hover-grey-10 u-nav-link u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90" href="sign-up.php" style="padding: 10px 20px;">sign up</a>
+            <li class="u-nav-item"><a class="u-active-grey-5 u-button-style u-hover-grey-10 u-nav-link u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90" href="<?php echo URLROOT;?>/pages/sign-up" style="padding: 10px 20px;">sign up</a>
             </li>
             <li class="u-nav-item"><a class="u-active-grey-5 u-button-style u-hover-grey-10 u-nav-link u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90" href="sign-in.php" style="padding: 10px 20px;">sign in</a>
             </li>
@@ -92,11 +92,11 @@
             <div class="u-inner-container-layout u-sidenav-overflow">
               <div class="u-menu-close"></div>
               <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2">
-                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.php" style="padding: 10px 20px;">Home</a>
+                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="<?php echo URLROOT;?>" style="padding: 10px 20px;">Home</a>
                 </li>
-                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="auth/sign-up.php" style="padding: 10px 20px;">sign up</a>
+                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="<?php echo URLROOT;?>/users/sign-up" style="padding: 10px 20px;">Register</a>
                 </li>
-                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="auth/sign-in.php" style="padding: 10px 20px;">sign in</a>
+                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="<?php echo URLROOT;?>/users/login" style="padding: 10px 20px;">Login</a>
                 </li>
               </ul>
             </div>
