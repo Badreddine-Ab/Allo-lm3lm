@@ -1,5 +1,6 @@
 <?php require APPROOT . '/views/inc/header.php'; ?>
-
+  <link rel="stylesheet" href="<?php echo URLROOT; ?>/css/home.css" media="screen">
+  
 <section class="u-clearfix u-image u-shading u-section-1 " id="carousel_b893">
       <div class="u-clearfix u-sheet u-sheet-1">
         <div class="u-clearfix u-expanded-width u-gutter-0 u-layout-spacing-vertical u-layout-wrap u-layout-wrap-1">
@@ -96,6 +97,7 @@
         </div>
       </div>
     </section>
+    
     <section class="u-align-center u-clearfix u-grey-10 u-section-3" id="carousel_64ac">
       <div class="u-clearfix u-sheet u-sheet-1">
         <h2 class="u-text u-text-default u-text-1">What We Do</h2>

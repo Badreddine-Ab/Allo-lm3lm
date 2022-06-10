@@ -8,11 +8,11 @@
   <meta name="keywords" content="We live to turn great ideas, Key Features, What We Do, Our Portfolio">
   <meta name="description" content="">
   <title>Home</title>
-  <link rel="stylesheet" href="<?php echo URLROOT; ?>/public/css/nicepage.css" media="screen">
-  <link rel="stylesheet" href="<?php echo URLROOT; ?>/public/css/home.css" media="screen">
+  <link rel="stylesheet" href="<?php echo URLROOT; ?>/css/nicepage.css" media="screen">
+ 
   
-  <script class="u-script" type="text/javascript" src="<?php echo URLROOT; ?>/public/js/jquery.js" defer=""></script>
-    <script class="u-script" type="text/javascript" src="<?php echo URLROOT; ?>/public/js/nicepage.js" defer=""></script>
+  <!-- <script class="u-script" type="text/javascript" src="<?php echo URLROOT; ?>/public/js/jquery.js" defer=""></script> -->
+    <!-- <script class="u-script" type="text/javascript" src="<?php echo URLROOT; ?>/public/js/nicepage.js" defer=""></script> -->
   <meta name="generator" content="Nicepage 4.12.5, nicepage.com">
   <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i|Bai+Jamjuree:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i">
   <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bai+Jamjuree:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i">
@@ -45,7 +45,7 @@
   <header class="u-align-center-sm u-align-center-xs u-clearfix u-header u-header" id="sec-dd13">
     <div class="u-clearfix u-sheet u-sheet-1">
       <a href="#" class="u-image u-logo u-image-1" data-image-width="1200" data-image-height="1200">
-        <img src="./img/Allolm3lm-logos_black.png" class="u-logo-image u-logo-image-1">
+        <img src="<?php echo URLROOT ?>/img/Allolm3lm-logos_black.png" class="u-logo-image u-logo-image-1">
       </a>
       <nav class="u-align-left u-menu u-menu-dropdown u-offcanvas u-menu-1" data-responsive-from="XL">
         <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px; font-weight: 500;">
@@ -94,9 +94,9 @@
               <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2">
                 <li class="u-nav-item"><a class="u-button-style u-nav-link" href="<?php echo URLROOT;?>" style="padding: 10px 20px;">Home</a>
                 </li>
-                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="<?php echo URLROOT;?>/users/sign-up" style="padding: 10px 20px;">Register</a>
+                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="<?php echo URLROOT; ?>/users/register" style="padding: 10px 20px;">Register</a>
                 </li>
-                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="<?php echo URLROOT;?>/users/login" style="padding: 10px 20px;">Login</a>
+                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="<?php echo URLROOT; ?>/users/login" style="padding: 10px 20px;">Login</a>
                 </li>
               </ul>
             </div>
