@@ -54,8 +54,7 @@
               </form>
             </div>
           </div>
-        </div>
-        <div class="u-align-left u-container-style u-layout-cell u-right-cell u-size-30 u-layout-cell-2">
+          <div class="u-align-left u-container-style u-layout-cell u-right-cell u-size-30 u-layout-cell-2">
           <div class="u-container-layout u-container-layout-6">
             <h2 class="u-text u-text-body-alt-color u-text-default u-text-9">Create An Account</h2>
             <h6 class="u-custom-font u-text u-text-body-alt-color u-text-font u-text-10">We can ensure reliability, low cost fares and most important, with safety and comfort in mind.</h6>
@@ -102,6 +101,8 @@
             </div>
           </div>
         </div>
+        </div>
+        
       </div>
     </div>
   </div>
@@ -110,5 +111,5 @@
 </div>
 </div>
 </div>
-<script src="<?php echo URLROOT; ?>/public/js/register.js"></script>
+<!-- <script src="<?php echo URLROOT; ?>/public/js/register.js"></script> -->
 <?php require APPROOT . '/views/inc/footer.php'; ?>

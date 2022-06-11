@@ -3,6 +3,7 @@
 
 <section class="u-clearfix u-gradient u-section-1" id="carousel_0e82">
 <?php require APPROOT . '/views/inc/contact.php'; ?>
+
       <div class="u-clearfix u-layout-wrap u-layout-wrap-1">
         <div class="u-layout">
           <div class="u-layout-row">
@@ -24,12 +25,12 @@
                     <input type="submit" value="Login" class="u-btn u-btn-round u-btn-submit u-button-style u-radius-50 u-text-palette-1-base u-white u-btn-2"></input>
                       <input type="submit" value="submit" class="u-form-control-hidden">
                     </div>
-                    <div class="u-form-send-message u-form-send-success"> Thank you! Your message has been sent. </div>
-                    <div class="u-form-send-error u-form-send-message"> Unable to send your message. Please fix errors then try again. </div>
-                    <input type="hidden" value="" name="recaptchaResponse">
+                   
+                    
                   </form>
                 </div>
-                <p class="u-text u-text-body-alt-color u-text-default u-text-9">don't have an account ? <a  href="<?php echo URLROOT; ?>/users/login">sign up here</a> </p>
+                <?php flash('register_success');?>
+                <p class="u-text u-text-body-alt-color u-text-default u-text-9">don't have an account ? <a  href="<?php echo URLROOT; ?>/users/register">sign up here</a> </p>
               </div>
             </div>
             <div class="u-align-left u-container-style u-layout-cell u-right-cell u-size-30 u-layout-cell-2">
