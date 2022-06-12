@@ -395,7 +395,7 @@
           <div class="u-container-layout u-container-layout-1">
             <h2 class="u-text u-text-1">Test Your Ideas and New Products</h2>
             <p class="u-text u-text-2"> See and hear real users as they interact with your design prototypes, Arts, and Your work.&nbsp;</p>
-            <a href="https://nicepage.app" class="u-btn u-btn-round u-button-style u-color-scheme-summer-time u-color-style-multicolor-1 u-palette-2-base u-radius-50 u-btn-1">Learn more</a>
+            <a href="" class="u-btn u-btn-round u-button-style u-color-scheme-summer-time u-color-style-multicolor-1 u-palette-2-base u-radius-50 u-btn-1">Learn more</a>
           </div>
         </div>
       </div>

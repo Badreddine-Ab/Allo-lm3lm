@@ -146,7 +146,7 @@
 
         // Make sure errors are empty
         if(empty($data['email_err']) && empty($data['password_err'])){
-          // Validated
+          // Validated=)
           // Check and set logged in user
           $loggedInUser = $this->userModel->login($data['email'], $data['password']);
           if($loggedInUser){
@@ -181,7 +181,7 @@
       $_SESSION['user_id'] = $user->id;
       $_SESSION['user_email'] = $user->email;
       $_SESSION['user_name'] = $user->name;
-      redirect('pages/index');
+      redirect('pages/choice');
     }
 
     public function logout(){
@@ -192,11 +192,5 @@
       redirect('users/login');
     }
 
-    public function isLoggedIn(){
-      if(isset($_SESSION['user_id'])){
-        return true;
-      } else {
-        return false;
-      }  
-    }
+   
   }

@@ -21,4 +21,15 @@
 
       $this->view('pages/about', $data);
     }
+
+    
+
+    
+    public function choice(){
+      $data = [
+        
+      ];
+
+      $this->view('pages/choice', $data);
+    }
   }

@@ -49,8 +49,12 @@
           <li class="u-nav-item"><a class="u-button-style u-nav-link" href="<?php echo URLROOT;?>"
                 style="padding: 10px 20px;">Home</a>
             </li>
+           
           <?php if(isset($_SESSION['user_id'])) {  ?>
-
+            </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="<?php echo URLROOT;?>/posts/startwork" style="padding: 10px 20px;">Become a m3lm</a>
+            <li class="u-nav-item"><a class="u-button-style u-nav-link" href="<?php echo URLROOT; ?>/posts"
+                style="padding: 10px 20px;">Offers</a>
+            </li>
             <li class="u-nav-item"><a class="u-button-style u-nav-link" href="<?php echo URLROOT; ?>/users/logout"
                 style="padding: 10px 20px;">logout</a>
             </li>
