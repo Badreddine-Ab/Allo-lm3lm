@@ -3,9 +3,10 @@
 
 <div class="container ">
     <div class="card" style="height : 570px ">
-        <div class="form">
+        <form class="form" action="<?php echo URLROOT; ?>/posts/add" method="POST" enctype="multipart/form-data">
             <div class="left-side" style= "background-color: #e84a90 ">
                 <div class="left-heading">
+                
                     <h3>indeed</h3>
                 </div>
                 <div class="steps-content">
@@ -34,43 +35,33 @@
                     </div>
                     <div class="input-text">
                         <div class="input-div">
-                            <input type="text" required require id="user_name">
+                            <input type="text" name="title" required require id="user_name">
                             <span>First Name</span>
                         </div>
-                        <div class="input-div"> 
-                            <input type="text" required>
-                            <span>Last Name</span>
-                        </div>
+                        
                     </div>
                     <div class="input-text">
                         <div class="input-div">
-                            <input type="text" required require>
+                            <input type="text" name="phone" required require>
                             <span>Phone number</span>
                         </div>
                         <div class="input-div">
-                            <input type="text" required require>
-                            <span>E-mail Address</span>
+                            <input type="text" name="email" required require>
+                            <span>E-mail Address Professional</span>
                         </div>
                     </div>
                     <div class="input-text">
                         <div class="input-div">
-                            <select>
+                            <select name="contry">
                                 <option>Select Country</option>
                                 <option>Morocco</option>
-                                <option>France</option>
-                                <option>UK</option>
-                                <option>USA</option>
-                                <option>Germany</option>
-                                <option>Russia</option>
-                                <option>China</option>
-                                <option>Japan</option>
-                                <option>Pakistan</option>
+                                
                             </select>
                         
                         </div>
                         <div class="input-div">
                             
-                            <select>
+                            <select name="city">
                                 <option>Select City</option>
                                 <option>Marrakech</option>
                                 <option>Safi</option>
@@ -85,7 +76,7 @@
                         </div>
                     </div>
                     <div class="buttons">
-                        <button class="next_button">Next Step</button>
+                        <button type="button" class="next_button">Next Step</button>
                     </div>
                 </div>
                 <div class="main">
@@ -95,81 +86,75 @@
                         <p>This is your time to shine. Let potential costumers know what you do best and how you gained your skills, certifications and experience</p>
                     </div>
                     <div class="input-text">
-                        <div class="input-div">
-                            <input type="text" required require>
-                            <span>School Name</span>
-                        </div>
+                        
                         <div class="input-div"> 
-                            <input type="text" required>
-                            <span>Board Name</span>
+                            <input type="text" name="work_place_name" required>
+                            <span>work place name</span>
                         </div>
                     </div>
                     <div class="input-text">
                         <div class="input-div">
-                            <input type="text" required require>
-                            <span>College/University name</span>
+                            <input type="text" name="certificate" required require>
+                            <span>Certificate Name</span>
                         </div>
                     </div>
                     <div class="input-text">
                         <div class="input-div">
-                            <select>
+                            <select name=" field" >
                                 <option>Select field</option>
                                 <option>Carpenter</option>
                                 <option>Smith</option>
                                 <option>Plumber</option>
-                                <option>electrician</option>
-                                <option>B-SC</option>
-                                <option>MBA</option>
-                                <option>MCA</option>
-                                <option>M-COM</option>
-                                <option>M-TECH</option>
+                                <option>Electrician</option>
+                                <option>Painter</option>
+                                <option>Refrigerator repairman</option>
+                                <option>air conditioning repairman</option>
+                                <option>Upholsterer</option>
+                                <option>Tailor</option>
                             </select>
                         </div>
                     </div>
                     <div class="buttons button_space">
-                        <button class="back_button">Back</button>
-                        <button class="next_button">Next Step</button>
+                        <button type="button" class="back_button">Back</button>
+                        <button type="button" class="next_button">Next Step</button>
                     </div>
                 </div>
                 <div class="main">
                     <small><i class="fa fa-smile-o"></i></small>
                     <div class="text">
-                        <h2>Work Experiences</h2>
-                        <p>Can you talk about your past work experience?</p>
+                        <h2>Contact info</h2>
+                        <p>Provide contact informations so that people can rech for you easily</p>
                     </div>
                     <div class="input-text">
-                        <div class="input-div">
-                            <input type="text" required require>
-                            <span>Experience 1</span>
-                        </div>
+                        
                         <div class="input-div"> 
-                            <input type="text" required require>
-                            <span>Position</span>
+                            <input type="text" name="instagram"  >
+                            <span>Instagram</span>
                         </div>
                     </div>
                     <div class="input-text">
                         <div class="input-div">
-                            <input type="text" required>
-                            <span>Experience 2</span>
+                            <input type="text" name="facebook">
+                            <span>Facebook</span>
                         </div>
                         <div class="input-div">
-                            <input type="text" required>
-                            <span>Position</span>
+                            <input type="text" >
+                            <span>Twitter</span>
                         </div>
                     </div>
                     <div class="input-text">
                         <div class="input-div">
-                            <input type="text" required>
-                            <span>Experience 3</span>
+                            <input type="text" name="whatsapp" >
+                            <span>Whatsapp</span>
                         </div>
                         <div class="input-div">
-                            <input type="text" required>
-                            <span>Position</span>
+                            <input type="text" name="work_place_adress">
+                            <span>Work Place Adress</span>
                         </div>
                     </div>
                     <div class="buttons button_space">
-                        <button class="back_button">Back</button>
-                        <button class="next_button">Next Step</button>
+                        <button type="button" class="back_button">Back</button>
+                        <button type="button" class="next_button">Next Step</button>
                     </div>
                 </div>
                 
@@ -178,31 +163,23 @@
                 <div class="main">
                     <small><i class="fa fa-smile-o"></i></small>
                     <div class="text">
-                        <h2>User Photo</h2>
+                        <h2>User Picture</h2>
                         <p>Upload your profile picture and share yourself.</p>
                     </div>
                     <div class="user_card">
                         <span></span>
                         <div class="circle">
-                            <span><img src="https://i.imgur.com/hnwphgM.jpg"></span>
+                        <label for="img">Select a pic:</label>
+                        <input type="file" id="img" name="img" accept="image/*">
+                        <input type="submit">
                             
                         </div>
-                        <div class="social">
-                            <span><i class="fa fa-share-alt"></i></span>
-                            <span><i class="fa fa-heart"></i></span>
-                            
-                        </div>
-                        <div class="user_name">
-                            <h3>Peter Hawkins</h3>
-                            <div class="detail">
-                                <p><a href="#">Izmar,Turkey</a>Hiring</p>
-                                <p>17 last day . 94Apply</p>
-                            </div>
-                        </div>
+                        
+                       
                     </div>
                     <div class="buttons button_space">
-                        <button class="back_button">Back</button>
-                        <button class="submit_button">Submit</button>
+                        <button type="button" class="back_button">Back</button>
+                        <button type="submit" class="submit_button">Submit</button>
                     </div>
                 </div>
                  <div class="main">
@@ -213,7 +190,8 @@
                      
                     <div class="text congrats">
                         <h2>Congratulations!</h2>
-                        <p>Thanks Mr./Mrs. <span class="shown_name"></span> your information have been submitted successfully for the future reference we will contact you soon.</p>
+                        <p>Thanks Mr./Mrs. <span class="shown_name"></span> your information have been submitted successfully </p>
+                        <a href="<?php echo URLROOT ?>/posts" class="btn btn-light"> <i class="fa fa-backwards"></i> Go to Offers</a>
                     </div>
                 </div>
                 
@@ -223,7 +201,7 @@
             
 
             </div>
-        </div>
+        </form>
     </div>
 </div>
 <script src="<?php echo URLROOT; ?>/js/add.js">

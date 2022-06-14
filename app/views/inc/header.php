@@ -37,7 +37,7 @@
   <header class="u-align-center-sm u-align-center-xs u-clearfix u-header u-header" id="sec-dd13">
   <nav class="navbar navbar-light bg-light justify-content-between">
     <div class="d-flex">
-    <a href="#" class="u-image u-logo u-image-1" data-image-width="1200" data-image-height="1200">
+    <a href="<?php echo URLROOT ?>" class="u-image u-logo u-image-1" data-image-width="1200" data-image-height="1200">
         <img src="<?php echo URLROOT ?>/img/Allolm3lm-logos_black.png" class="u-logo-image u-logo-image-1">
       </a>
       

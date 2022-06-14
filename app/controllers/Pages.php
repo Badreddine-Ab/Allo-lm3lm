@@ -5,6 +5,10 @@
     }
     
     public function index(){
+      if(isLoggedIn()){
+        redirect('pages/choice');
+      }
+
       $data = [
         'title' => 'Allo lm3lm',
         'description' => 'Simple service free lance network build with mvc'

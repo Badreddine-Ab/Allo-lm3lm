@@ -28,7 +28,7 @@
               <div class="u-container-layout u-similar-container u-container-layout-4">
                 <h5 class="u-custom-font u-font-raleway u-text u-text-default u-text-palette-1-base u-text-9">now it's your turn</h5><span class="u-file-icon u-icon u-icon-circle u-palette-1-base u-icon-4"><img src="<?php echo URLROOT ?>/img/4229183.png" alt=""></span>
                 
-                <a href="<?php echo URLROOT; ?>/posts/add" type="button" class="btn text-center bleu m-4 h-25 d-inline-block "> <b> Become a m3lm</b> </a>
+                <a href="<?php echo URLROOT; ?>/posts/add" type="button" class="btn text-center bleu "> <b> Become a m3lm</b> </a>
               </div>
             </div>
           </div>
