@@ -7,7 +7,7 @@
             <div class="left-side" style= "background-color: #e84a90 ">
                 <div class="left-heading">
                 
-                    <h3>indeed</h3>
+                    <h3>Allo lm3lm</h3>
                 </div>
                 <div class="steps-content">
                     <h3>Step <span class="step-number">1</span></h3>
@@ -16,7 +16,7 @@
                     <p class="step-number-content d-none">Help companies get to know you better by telling then about your past experiences.</p>
                     <p class="step-number-content d-none">Add your profile piccture and let companies find youy fast.</p>
                 </div>
-                <ul class="progress-bar" >
+                <ul class="progress-bar" style="background-color: #e84a90 !important;" >
                     <li class="active">Personal Information</li>
                     <li>Professional info</li>
                     <li>Work Experience</li>
@@ -138,7 +138,7 @@
                             <span>Facebook</span>
                         </div>
                         <div class="input-div">
-                            <input type="text" >
+                            <input type="text" name="twitter" >
                             <span>Twitter</span>
                         </div>
                     </div>

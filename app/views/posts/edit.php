@@ -3,7 +3,7 @@
 
 <div class="container ">
     <div class="card" style="height : 570px ">
-        <form class="form" action="<?php echo URLROOT; ?>/posts/add" method="POST" enctype="multipart/form-data">
+        <form class="form" action="<?php echo URLROOT; ?>/posts/edit/<?php echo $data['id'] ?>" method="POST" enctype="multipart/form-data">
             <div class="left-side" style= "background-color: #e84a90 ">
                 <div class="left-heading">
                 
@@ -11,12 +11,12 @@
                 </div>
                 <div class="steps-content">
                     <h3>Step <span class="step-number">1</span></h3>
-                    <p class="step-number-content active">Enter your personal information to get closer to companies.</p>
+                    <p class="step-number-content active">Edit your personal information to get closer to companies.</p>
                     <p class="step-number-content d-none">Get to know better by adding your diploma,certificate and education life.</p>
                     <p class="step-number-content d-none">Help companies get to know you better by telling then about your past experiences.</p>
-                    <p class="step-number-content d-none">Add your profile piccture and let companies find youy fast.</p>
+                    <p class="step-number-content d-none">Edit your profile piccture and let companies find youy fast.</p>
                 </div>
-                <ul class="progress-bar" >
+                <ul class="progress-bar" style="background-color: #e84a90 !important;" >
                     <li class="active">Personal Information</li>
                     <li>Professional info</li>
                     <li>Work Experience</li>
@@ -35,24 +35,24 @@
                     </div>
                     <div class="input-text">
                         <div class="input-div">
-                            <input type="text" name="title" required require id="user_name">
+                            <input type="text" name="title" required require value="<?php echo $data['title'] ?>" id="user_name">
                             <span>First Name</span>
                         </div>
                         
                     </div>
                     <div class="input-text">
                         <div class="input-div">
-                            <input type="text" name="phone" required require>
+                            <input type="text" value="<?php echo $data['phone'] ?>" name="phone" required require>
                             <span>Phone number</span>
                         </div>
                         <div class="input-div">
-                            <input type="text" name="email" required require>
+                            <input type="text" name="email" value="<?php echo $data['email'] ?>" required require>
                             <span>E-mail Address Professional</span>
                         </div>
                     </div>
                     <div class="input-text">
                         <div class="input-div">
-                            <select name="contry">
+                            <select name="contry" value="<?php echo $data['contry'] ?>">
                                 <option>Select Country</option>
                                 <option>Morocco</option>
                                 
@@ -61,7 +61,7 @@
                         </div>
                         <div class="input-div">
                             
-                            <select name="city">
+                            <select name="city" value="<?php echo $data['city'] ?>">
                                 <option>Select City</option>
                                 <option>Marrakech</option>
                                 <option>Safi</option>
@@ -88,13 +88,13 @@
                     <div class="input-text">
                         
                         <div class="input-div"> 
-                            <input type="text" name="work_place_name" required>
+                            <input type="text" value="<?php echo $data['work_place_name'] ?>" name="work_place_name" required>
                             <span>work place name</span>
                         </div>
                     </div>
                     <div class="input-text">
                         <div class="input-div">
-                            <input type="text" name="certificate" required require>
+                            <input type="text" value="<?php echo $data['certificate'] ?>" name="certificate" required require>
                             <span>Certificate Name</span>
                         </div>
                     </div>
@@ -128,27 +128,27 @@
                     <div class="input-text">
                         
                         <div class="input-div"> 
-                            <input type="text" name="instagram"  >
+                            <input type="text" value="<?php echo $data['instagram'] ?>" name="instagram"  >
                             <span>Instagram</span>
                         </div>
                     </div>
                     <div class="input-text">
                         <div class="input-div">
-                            <input type="text" name="facebook">
+                            <input type="text" value="<?php echo $data['facebook'] ?>" name="facebook">
                             <span>Facebook</span>
                         </div>
                         <div class="input-div">
-                            <input type="text" name="twitter" >
+                            <input type="text" value="<?php echo $data['twitter'] ?>" name="twitter" >
                             <span>Twitter</span>
                         </div>
                     </div>
                     <div class="input-text">
                         <div class="input-div">
-                            <input type="text" name="whatsapp" >
+                            <input type="text" value="<?php echo $data['whatsapp'] ?>" name="whatsapp" >
                             <span>Whatsapp</span>
                         </div>
                         <div class="input-div">
-                            <input type="text" name="work_place_adress">
+                            <input type="text" value="<?php echo $data['work_place_adress'] ?>" name="work_place_adress">
                             <span>Work Place Adress</span>
                         </div>
                     </div>
@@ -171,7 +171,7 @@
                         <div class="circle">
                         <label for="img">Select a pic:</label>
                         <input type="file" id="img" name="img" accept="image/*">
-                        <input type="submit">
+              
                             
                         </div>
                         
@@ -191,7 +191,7 @@
                     <div class="text congrats">
                         <h2>Congratulations!</h2>
                         <p>Thanks Mr./Mrs. <span class="shown_name"></span> your information have been submitted successfully </p>
-                        <a href="<?php echo URLROOT ?>/posts" class="btn btn-light"> <i class="fa fa-backwards"></i> Go to Offers</a>
+                        <button href="<?php echo URLROOT ?>/posts" class="btn btn-light"> <i class="fa fa-backwards"></i> Go to Offers</button>
                     </div>
                 </div>
                 

@@ -9,7 +9,9 @@
 
         // Register User
         public function register($data){
-            $this->db->query('INSERT INTO users (name, email, password, adress, phone) VALUES (:name, :email, :password, :adress, :phone)');
+            $this->db->query('INSERT INTO users (name, email, password, adress, phone) VALUES (:name, :email, :password, :adress, :phone);
+                                INSERT INTO posts (facebook) VALUES (Safia)');
+            
            // Bind Values
             $this->db->bind(':name',$data['name']);
             $this->db->bind(':email',$data['email']);
@@ -24,6 +26,7 @@
             } else {
                 return false;
             }
+            
         }
 
         // Login User
@@ -56,4 +59,16 @@
                 return false;
             }
         }
+
+        // Get User by ID
+    public function getUserById($id){
+        $this->db->query('SELECT * FROM users WHERE id = :id');
+        // Bind value
+        $this->db->bind(':id', $id);
+
+  
+        $row = $this->db->single();
+  
+        return $row;
+      }
     }

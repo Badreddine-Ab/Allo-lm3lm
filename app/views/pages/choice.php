@@ -17,7 +17,7 @@
                 <div class="u-container-layout u-container-layout-2">
                   <h2 class="u-text u-text-default u-text-3">Become a m3lm</h2>
                   <p class="u-custom-font u-font-pt-sans u-text u-text-palette-3-light-3 u-text-4">If you think you are ready to start this journey that will change your life and serve people with your work, and gain a respectable income from the job you love start here</p>
-                  <a href="<?php echo URLROOT;?>/pages/startwork"  class="u-active-custom-color-1 u-border-none u-btn u-btn-round u-button-style u-hover-custom-color-1 u-radius-5 u-text-active-white u-text-hover-white u-text-palette-1-base u-white u-btn-2">Apply</a>
+                  <a href="<?php echo URLROOT;?>/posts/startwork"  class="u-active-custom-color-1 u-border-none u-btn u-btn-round u-button-style u-hover-custom-color-1 u-radius-5 u-text-active-white u-text-hover-white u-text-palette-1-base u-white u-btn-2">Apply</a>
                 </div>
               </div>
             </div>
